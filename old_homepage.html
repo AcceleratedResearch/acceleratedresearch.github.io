@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #34495E;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+body {
+
+    background-image: url("https://dl.dropboxusercontent.com/s/gksu0tai7ju5dxk/altitude-cable-car-clouds-919931.jpg?dl=0");
+    background-repeat: no-repeat;
+    background-size: contain;
+<!--background-image: url("https://dl.dropboxusercontent.com/s/b7ub6srbvokxliz/IMGP5034.JPG?dl=0");-->
+}
+</style>
+</head>
+<body>
+
+<h1>ACCELERATED RESEARCH</h1>
+
+<h2>Meet The Team</h2>
+<p>Just a couple of big guys.</p>
+<br>
+<p>Resize the browser window to see the full effect.</p>
+<br>
+
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="https://dl.dropboxusercontent.com/s/brrl0cb08d2chgu/Screen%20Shot%202018-02-15%20at%209.09.02%20PM.png?dl=0" alt="Alexander" style="width:100%">
+            <div class="container">
+                <h2>Alexander Dungate</h2>
+                <p class="title">Founder & Janitor</p>
+                <p>Alexander is a pretty good guy. For reference, see his Yelp profile.  His Yelp ratings average 4.3/5 stars.</p>
+                <p>email@example.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="https://dl.dropboxusercontent.com/s/fppqnljhwfcqloo/20180426_222822.jpg?dl=0" alt="Matthew" style="width:100%">
+            <div class="container">
+                <h2>Matthew Leighton</h2>
+                <p class="title">Founder & U.F.O.</p>
+                <p>Matthew runs fast, turns left, sings, and does smart things.</p>
+                <p>babemagnet@playersclub.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="https://dl.dropboxusercontent.com/s/b7ub6srbvokxliz/IMGP5034.JPG?dl=0" alt="Thomas" style="width:100%">
+            <div class="container">
+                <h2>Thomas Broatch</h2>
+                <p class="title">Founder & Pedal-Heads Professional</p>
+                <p>Thomas is good at Computer Engineering. Very good.  But his true passion is teaching small children to ride bikes.</p>
+                <p>thomas@pedalheads.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="https://dl.dropboxusercontent.com/s/uvmxsprkxkfl7zj/20180426_222917.jpg?dl=0" alt="Sepand" style="width:100%">
+            <div class="container">
+                <h2>Sepand Dyanatkar</h2>
+                <p class="title">Founder & Hackerman</p>
+                <p>The character "Hackerman" in the hit film Kungfury, is based on Sepand.</p>
+                <p>untraceable@darkweb.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="https://dl.dropboxusercontent.com/s/tn4jl5s2wr596t9/20160813_211522_Richtone%28HDR%29.jpg?dl=0" alt="Kieran" style="width:100%">
+            <div class="container">
+                <h2>Kieran Lumb</h2>
+                <p class="title">Junior Volunteer Back-Up Administrative Assistant</p>
+                <p>As a young child Kieran started to grind in his spare time.  This grinding habit slowly became a
+                    serious addictions. Now, his grinding condition has progressed to the point that he is permanently
+                on the grind.  Medical professionals have tried several treatments, but for Kieran, the grind never stops.</p>
+                <p>cantstopwontstop@thegrind.ca</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
